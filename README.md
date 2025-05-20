@@ -31,3 +31,17 @@ Backend: Node.js , Express , Next.js
 Database:  MySQL (Php my admin)
 
 Mailing: Nodemailer / SMTP integration
+
+                                         ==============
+Implemenation detials are listed out in the Medstation_app.pdf do check it out!
+
+For the **mysql database structure** contact me : 
+
+Gmail : twinsriramv2005@gmail.com 
+Linkedin : https://www.linkedin.com/in/twinsriram-v-1769472b2/
+
+**Mention the subject : Medstation mysql database structure regarding : [ fill out the requirement needs and the utilization purpose :)  ]**
+
+                                        ==============
+
+
