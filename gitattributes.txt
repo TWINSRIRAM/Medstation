@@ -1,0 +1,83 @@
+# Set default behavior to automatically normalize line endings
+* text=auto eol=lf
+
+# TypeScript and JavaScript files
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# CSS files
+*.css text eol=lf
+*.scss text eol=lf
+
+# HTML files
+*.html text eol=lf
+*.htm text eol=lf
+
+# Markdown files
+*.md text eol=lf
+*.mdx text eol=lf
+
+# SQL files
+*.sql text eol=lf
+
+# Config files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.config text eol=lf
+*.conf text eol=lf
+.env* text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.eslintrc* text eol=lf
+.prettierrc* text eol=lf
+tailwind.config.* text eol=lf
+next.config.* text eol=lf
+postcss.config.* text eol=lf
+tsconfig.json text eol=lf
+
+# Binary files (no line-ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.mp3 binary
+*.mp4 binary
+*.webm binary
+*.webp binary
+*.glb binary
+*.gltf binary
+
+# Exclude files from GitHub language statistics
+*.min.js linguist-generated=true
+*.min.css linguist-generated=true
+public/** linguist-vendored
+node_modules/** linguist-vendored
+
+# Merge strategies
+package-lock.json merge=npm-merge-driver
+yarn.lock merge=yarn-merge-driver
+pnpm-lock.yaml merge=pnpm-merge-driver
+
+# Treat SQL files as SQL for syntax highlighting
+*.sql linguist-language=SQL
+
+# Treat MDX files as MDX for syntax highlighting
+*.mdx linguist-language=MDX
