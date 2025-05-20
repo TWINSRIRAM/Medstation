@@ -1,0 +1,18 @@
+{
+  "name": "healthcare-portal-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  "start:login-backend": "cd login-backend && node index.js",
+  "start:root-login": "cd root-login-app && npm start",
+  "start:doctor": "cd doctor-panel && npm run dev",
+  "start:admin": "cd admin-panel && npm run dev",
+  "start:patient-frontend": "cd patient-panel && cross-env BROWSER=none npm start",
+  "start:patient-backend": "cd patient-panel/backend && npm start",
+  "medico": "concurrently -n login-backend,root-login,doctor,admin,patient-frontend,patient-backend -c yellow,green,blue,magenta,cyan,red \"npm run start:login-backend\" \"npm run start:root-login\" \"npm run start:doctor\" \"npm run start:admin\" \"npm run start:patient-frontend\" \"npm run start:patient-backend\""
+}
+,
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
